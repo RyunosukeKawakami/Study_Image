@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ryunosuke/Study/image_study/build",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -o CMakeFiles/image.dir/main.cpp.o -c /home/ryunosuke/Study/image_study/main.cpp",
+  "file": "/home/ryunosuke/Study/image_study/main.cpp"
+}
+]
