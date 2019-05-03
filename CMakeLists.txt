@@ -6,9 +6,12 @@ enable_testing()
 
 # make main project
 set(SOURCES 
+    Histogram.cpp
     main.cpp)
 
-set(HEADER)
+set(HEADER
+    Histogram.h)
+    
 add_executable(image ${SOURCES} ${HEADER})
 
 #Find Opencv

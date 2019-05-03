@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/image.dir/Histogram.cpp.o"
   "CMakeFiles/image.dir/main.cpp.o"
   "image.pdb"
   "image"

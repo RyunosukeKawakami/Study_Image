@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
+/home/ryunosuke/Study/image_study/Histogram.cpp
+Histogram.h
+/home/ryunosuke/Study/image_study/Histogram.h
+
+/home/ryunosuke/Study/image_study/Histogram.h
+iostream
+-
+vector
+-
+algorithm
+-
+opencv2/opencv.hpp
+-
+
 /home/ryunosuke/Study/image_study/main.cpp
 iostream
 -
 opencv2/opencv.hpp
 -
+Histogram.h
+/home/ryunosuke/Study/image_study/Histogram.h
 

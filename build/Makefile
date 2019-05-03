@@ -520,6 +520,33 @@ ExperimentalBuild/fast:
 	$(MAKE) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/build
 .PHONY : ExperimentalBuild/fast
 
+Histogram.o: Histogram.cpp.o
+
+.PHONY : Histogram.o
+
+# target to build an object file
+Histogram.cpp.o:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/Histogram.cpp.o
+.PHONY : Histogram.cpp.o
+
+Histogram.i: Histogram.cpp.i
+
+.PHONY : Histogram.i
+
+# target to preprocess a source file
+Histogram.cpp.i:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/Histogram.cpp.i
+.PHONY : Histogram.cpp.i
+
+Histogram.s: Histogram.cpp.s
+
+.PHONY : Histogram.s
+
+# target to generate assembly for a file
+Histogram.cpp.s:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/Histogram.cpp.s
+.PHONY : Histogram.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -587,6 +614,9 @@ help:
 	@echo "... ContinuousTest"
 	@echo "... ContinuousUpdate"
 	@echo "... ExperimentalBuild"
+	@echo "... Histogram.o"
+	@echo "... Histogram.i"
+	@echo "... Histogram.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
