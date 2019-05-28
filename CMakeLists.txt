@@ -15,12 +15,11 @@ set(HEADER
 add_executable(image ${SOURCES} ${HEADER})
 
 #Find Opencv
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 3.2.0 REQUIRED)
 if(OpenCV_FOUND)
     target_include_directories(image PUBLIC ${OpenCV_INCLUDE_DIRS})
     target_link_libraries(image ${OpenCV_LIBS})
+    message(${OpenCV_INCLUDE_DIRS})
+else()
+    message("Can not find Lib.")
 endif()
-
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
