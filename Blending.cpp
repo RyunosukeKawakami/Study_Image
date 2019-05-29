@@ -46,4 +46,5 @@ void Blending::DrawAlpha(){
 void Blending::DrawEmboss(const Mat& image){
     Mat negaposi = ~image;
     imshow("negaposi",negaposi);
+    
 }

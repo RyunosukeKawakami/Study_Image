@@ -14,17 +14,21 @@ int main(){
         return -1;
     }
 
+    char key = 0;
+
 //    Histogram hist(image);
 //    ImageValue value(image);
     Blending blend(image);
 
-    // hist.Draw();
-    // value.Draw();
-    blend.DrawAverage();
-    blend.DrawAlpha(0);
-    //imshow("Image",image);
-    waitKey(0);
-
+    while(key != 0x1b){     //ESCキーを押すまでループ
+        //hist.Draw();
+        //value.Draw();
+        //blend.DrawAverage();
+        blend.DrawAlpha();
+        //blend.DrawEmboss(image);
+        //imshow("Image",image);
+        key = waitKey(1);
+    }
     destroyAllWindows();
     return 0;
 }

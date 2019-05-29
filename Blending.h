@@ -11,15 +11,23 @@ class Blending{
 private:
     const int rows;
     const int cols;
+    const int trackbar_max;
+    float alpha_num;
+    int track_num;
     Mat original[2];
     Mat average;
     Mat alpha;
     Mat emboss;
+    Mat mono;
+
 public:
     Blending(const Mat&);
     void DrawAverage();
-    void DrawAlpha(float);
-    void DrawEmboss();
+    void DrawAlpha();
+    void DrawEmboss(const Mat&);
+
+private:
+    void onTrackbarChanged(int, void*);
 };
 
 #endif
