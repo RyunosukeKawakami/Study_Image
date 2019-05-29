@@ -7,7 +7,6 @@
 /home/ryunosuke/Study/image_study/build/CMakeFiles/ContinuousBuild.dir
 /home/ryunosuke/Study/image_study/build/CMakeFiles/ContinuousMemCheck.dir
 /home/ryunosuke/Study/image_study/build/CMakeFiles/Nightly.dir
-/home/ryunosuke/Study/image_study/build/CMakeFiles/package.dir
 /home/ryunosuke/Study/image_study/build/CMakeFiles/NightlyTest.dir
 /home/ryunosuke/Study/image_study/build/CMakeFiles/Continuous.dir
 /home/ryunosuke/Study/image_study/build/CMakeFiles/NightlyUpdate.dir
@@ -15,7 +14,6 @@
 /home/ryunosuke/Study/image_study/build/CMakeFiles/NightlyMemoryCheck.dir
 /home/ryunosuke/Study/image_study/build/CMakeFiles/NightlyStart.dir
 /home/ryunosuke/Study/image_study/build/CMakeFiles/NightlyBuild.dir
-/home/ryunosuke/Study/image_study/build/CMakeFiles/package_source.dir
 /home/ryunosuke/Study/image_study/build/CMakeFiles/ExperimentalStart.dir
 /home/ryunosuke/Study/image_study/build/CMakeFiles/test.dir
 /home/ryunosuke/Study/image_study/build/CMakeFiles/ExperimentalConfigure.dir

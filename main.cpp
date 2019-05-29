@@ -1,6 +1,7 @@
 #include<iostream>
 #include<opencv2/opencv.hpp>
 #include"Histogram.h"
+#include"ImageValue.h"
 
 using namespace cv;
 
@@ -13,7 +14,9 @@ int main(){
     }
 
     Histogram hist(image);
+    ImageValue value(image);
     hist.Draw();
+    value.Draw();
     //imshow("Image",image);
     waitKey(0);
 

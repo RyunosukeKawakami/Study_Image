@@ -4,6 +4,10 @@
 CMakeFiles/image.dir/Histogram.cpp.o: ../Histogram.cpp
 CMakeFiles/image.dir/Histogram.cpp.o: ../Histogram.h
 
+CMakeFiles/image.dir/ImageValue.cpp.o: ../ImageValue.cpp
+CMakeFiles/image.dir/ImageValue.cpp.o: ../ImageValue.h
+
 CMakeFiles/image.dir/main.cpp.o: ../Histogram.h
+CMakeFiles/image.dir/main.cpp.o: ../ImageValue.h
 CMakeFiles/image.dir/main.cpp.o: ../main.cpp
 

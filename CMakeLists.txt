@@ -5,11 +5,13 @@ include(CTest)
 enable_testing()
 
 # make main project
-set(SOURCES 
+set(SOURCES
+    ImageValue.cpp
     Histogram.cpp
     main.cpp)
 
 set(HEADER
+    ImageValue.h
     Histogram.h)
     
 add_executable(image ${SOURCES} ${HEADER})

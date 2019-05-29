@@ -12,8 +12,8 @@ Histogram::Histogram(const Mat& image){
 }
 
 void Histogram::TrancerateGrayScale(const Mat& image){
-    for(int y = 1; y < image.rows ;y++){
-        for(int x = 1; x < image.cols ;x++){
+    for(int y = 0; y < image.rows ;y++){
+        for(int x = 0; x < image.cols ;x++){
             luminance[y][x] = (int)0.114*image.at<Vec3b>(y,x)[0] + 
                              0.587*image.at<Vec3b>(y,x)[1] +
                              0.299*image.at<Vec3b>(y,x)[2];

@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/ryunosuke/Study/image_study/build",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -o CMakeFiles/image.dir/ImageValue.cpp.o -c /home/ryunosuke/Study/image_study/ImageValue.cpp",
+  "file": "/home/ryunosuke/Study/image_study/ImageValue.cpp"
+},
+{
+  "directory": "/home/ryunosuke/Study/image_study/build",
   "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -o CMakeFiles/image.dir/Histogram.cpp.o -c /home/ryunosuke/Study/image_study/Histogram.cpp",
   "file": "/home/ryunosuke/Study/image_study/Histogram.cpp"
 },

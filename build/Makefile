@@ -78,28 +78,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	/usr/local/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
-
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/local/bin/cpack --config ./CPackSourceConfig.cmake /home/ryunosuke/Study/image_study/build/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -547,6 +525,33 @@ Histogram.cpp.s:
 	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/Histogram.cpp.s
 .PHONY : Histogram.cpp.s
 
+ImageValue.o: ImageValue.cpp.o
+
+.PHONY : ImageValue.o
+
+# target to build an object file
+ImageValue.cpp.o:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/ImageValue.cpp.o
+.PHONY : ImageValue.cpp.o
+
+ImageValue.i: ImageValue.cpp.i
+
+.PHONY : ImageValue.i
+
+# target to preprocess a source file
+ImageValue.cpp.i:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/ImageValue.cpp.i
+.PHONY : ImageValue.cpp.i
+
+ImageValue.s: ImageValue.cpp.s
+
+.PHONY : ImageValue.s
+
+# target to generate assembly for a file
+ImageValue.cpp.s:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/ImageValue.cpp.s
+.PHONY : ImageValue.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -589,7 +594,6 @@ help:
 	@echo "... ContinuousBuild"
 	@echo "... ContinuousMemCheck"
 	@echo "... Nightly"
-	@echo "... package"
 	@echo "... NightlyTest"
 	@echo "... Continuous"
 	@echo "... NightlyUpdate"
@@ -597,7 +601,6 @@ help:
 	@echo "... NightlyMemoryCheck"
 	@echo "... NightlyStart"
 	@echo "... NightlyBuild"
-	@echo "... package_source"
 	@echo "... ExperimentalStart"
 	@echo "... test"
 	@echo "... ExperimentalConfigure"
@@ -617,6 +620,9 @@ help:
 	@echo "... Histogram.o"
 	@echo "... Histogram.i"
 	@echo "... Histogram.s"
+	@echo "... ImageValue.o"
+	@echo "... ImageValue.i"
+	@echo "... ImageValue.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

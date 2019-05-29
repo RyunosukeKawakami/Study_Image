@@ -4,6 +4,10 @@
 CMakeFiles/image.dir/Histogram.cpp.o
  /home/ryunosuke/Study/image_study/Histogram.cpp
  /home/ryunosuke/Study/image_study/Histogram.h
+CMakeFiles/image.dir/ImageValue.cpp.o
+ /home/ryunosuke/Study/image_study/ImageValue.cpp
+ /home/ryunosuke/Study/image_study/ImageValue.h
 CMakeFiles/image.dir/main.cpp.o
  /home/ryunosuke/Study/image_study/Histogram.h
+ /home/ryunosuke/Study/image_study/ImageValue.h
  /home/ryunosuke/Study/image_study/main.cpp

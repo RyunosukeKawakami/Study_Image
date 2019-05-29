@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/ryunosuke/Study/image_study/Histogram.cpp
-Histogram.h
-/home/ryunosuke/Study/image_study/Histogram.h
+/home/ryunosuke/Study/image_study/ImageValue.cpp
+ImageValue.h
+/home/ryunosuke/Study/image_study/ImageValue.h
 
-/home/ryunosuke/Study/image_study/Histogram.h
-iostream
+/home/ryunosuke/Study/image_study/ImageValue.h
+opencv2/opencv.hpp
+-
+cmath
 -
 vector
--
-algorithm
--
-opencv2/opencv.hpp
 -
 
