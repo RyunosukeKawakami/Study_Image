@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/ryunosuke/Study/image_study/Blending.cpp
-Blending.h
-/home/ryunosuke/Study/image_study/Blending.h
-
 /home/ryunosuke/Study/image_study/Blending.h
 opencv2/opencv.hpp
 -
@@ -17,4 +13,34 @@ cmath
 -
 vector
 -
+
+/home/ryunosuke/Study/image_study/Histogram.h
+iostream
+-
+vector
+-
+algorithm
+-
+opencv2/opencv.hpp
+-
+
+/home/ryunosuke/Study/image_study/ImageValue.h
+opencv2/opencv.hpp
+-
+cmath
+-
+vector
+-
+
+/home/ryunosuke/Study/image_study/main.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+Histogram.h
+/home/ryunosuke/Study/image_study/Histogram.h
+ImageValue.h
+/home/ryunosuke/Study/image_study/ImageValue.h
+Blending.h
+/home/ryunosuke/Study/image_study/Blending.h
 

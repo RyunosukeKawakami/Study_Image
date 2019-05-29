@@ -21,6 +21,7 @@ int main(){
     // hist.Draw();
     // value.Draw();
     blend.DrawAverage();
+    blend.DrawAlpha(0);
     //imshow("Image",image);
     waitKey(0);
 
