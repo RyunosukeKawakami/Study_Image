@@ -18,8 +18,8 @@ private:
 public:
     Blending(const Mat&);
     void DrawAverage();
-    void DrawAlpha();
-    void DrawEmboss();
+ //   void DrawAlpha();
+ //   void DrawEmboss();
 };
 
 #endif

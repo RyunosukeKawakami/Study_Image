@@ -6,11 +6,13 @@ enable_testing()
 
 # make main project
 set(SOURCES
+    Blending.cpp
     ImageValue.cpp
     Histogram.cpp
     main.cpp)
 
 set(HEADER
+    Blending.h
     ImageValue.h
     Histogram.h)
     

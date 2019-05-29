@@ -2,6 +2,7 @@
 #include<opencv2/opencv.hpp>
 #include"Histogram.h"
 #include"ImageValue.h"
+#include"Blending.h"
 
 using namespace cv;
 
@@ -13,10 +14,13 @@ int main(){
         return -1;
     }
 
-    Histogram hist(image);
-    ImageValue value(image);
-    hist.Draw();
-    value.Draw();
+//    Histogram hist(image);
+//    ImageValue value(image);
+    Blending blend(image);
+
+    // hist.Draw();
+    // value.Draw();
+    blend.DrawAverage();
     //imshow("Image",image);
     waitKey(0);
 

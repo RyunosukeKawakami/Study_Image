@@ -57,9 +57,22 @@ include CMakeFiles/image.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/image.dir/flags.make
 
+CMakeFiles/image.dir/Blending.cpp.o: CMakeFiles/image.dir/flags.make
+CMakeFiles/image.dir/Blending.cpp.o: ../Blending.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ryunosuke/Study/image_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image.dir/Blending.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image.dir/Blending.cpp.o -c /home/ryunosuke/Study/image_study/Blending.cpp
+
+CMakeFiles/image.dir/Blending.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image.dir/Blending.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ryunosuke/Study/image_study/Blending.cpp > CMakeFiles/image.dir/Blending.cpp.i
+
+CMakeFiles/image.dir/Blending.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image.dir/Blending.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ryunosuke/Study/image_study/Blending.cpp -o CMakeFiles/image.dir/Blending.cpp.s
+
 CMakeFiles/image.dir/ImageValue.cpp.o: CMakeFiles/image.dir/flags.make
 CMakeFiles/image.dir/ImageValue.cpp.o: ../ImageValue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ryunosuke/Study/image_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image.dir/ImageValue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ryunosuke/Study/image_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image.dir/ImageValue.cpp.o"
 	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image.dir/ImageValue.cpp.o -c /home/ryunosuke/Study/image_study/ImageValue.cpp
 
 CMakeFiles/image.dir/ImageValue.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/image.dir/ImageValue.cpp.s: cmake_force
 
 CMakeFiles/image.dir/Histogram.cpp.o: CMakeFiles/image.dir/flags.make
 CMakeFiles/image.dir/Histogram.cpp.o: ../Histogram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ryunosuke/Study/image_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image.dir/Histogram.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ryunosuke/Study/image_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image.dir/Histogram.cpp.o"
 	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image.dir/Histogram.cpp.o -c /home/ryunosuke/Study/image_study/Histogram.cpp
 
 CMakeFiles/image.dir/Histogram.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/image.dir/Histogram.cpp.s: cmake_force
 
 CMakeFiles/image.dir/main.cpp.o: CMakeFiles/image.dir/flags.make
 CMakeFiles/image.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ryunosuke/Study/image_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ryunosuke/Study/image_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/image.dir/main.cpp.o"
 	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image.dir/main.cpp.o -c /home/ryunosuke/Study/image_study/main.cpp
 
 CMakeFiles/image.dir/main.cpp.i: cmake_force
@@ -98,6 +111,7 @@ CMakeFiles/image.dir/main.cpp.s: cmake_force
 
 # Object files for target image
 image_OBJECTS = \
+"CMakeFiles/image.dir/Blending.cpp.o" \
 "CMakeFiles/image.dir/ImageValue.cpp.o" \
 "CMakeFiles/image.dir/Histogram.cpp.o" \
 "CMakeFiles/image.dir/main.cpp.o"
@@ -105,6 +119,7 @@ image_OBJECTS = \
 # External object files for target image
 image_EXTERNAL_OBJECTS =
 
+image: CMakeFiles/image.dir/Blending.cpp.o
 image: CMakeFiles/image.dir/ImageValue.cpp.o
 image: CMakeFiles/image.dir/Histogram.cpp.o
 image: CMakeFiles/image.dir/main.cpp.o
@@ -151,7 +166,7 @@ image: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
 image: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 image: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 image: CMakeFiles/image.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ryunosuke/Study/image_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable image"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ryunosuke/Study/image_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable image"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

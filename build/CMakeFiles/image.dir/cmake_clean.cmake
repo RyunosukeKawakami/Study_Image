@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/image.dir/Blending.cpp.o"
   "CMakeFiles/image.dir/ImageValue.cpp.o"
   "CMakeFiles/image.dir/Histogram.cpp.o"
   "CMakeFiles/image.dir/main.cpp.o"

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ryunosuke/Study/image_study/ImageValue.cpp
-ImageValue.h
-/home/ryunosuke/Study/image_study/ImageValue.h
+/home/ryunosuke/Study/image_study/Blending.cpp
+Blending.h
+/home/ryunosuke/Study/image_study/Blending.h
 
-/home/ryunosuke/Study/image_study/ImageValue.h
+/home/ryunosuke/Study/image_study/Blending.h
 opencv2/opencv.hpp
 -
 cmath

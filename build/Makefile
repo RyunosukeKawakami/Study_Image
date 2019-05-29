@@ -498,6 +498,33 @@ ContinuousConfigure/fast:
 	$(MAKE) -f CMakeFiles/ContinuousConfigure.dir/build.make CMakeFiles/ContinuousConfigure.dir/build
 .PHONY : ContinuousConfigure/fast
 
+Blending.o: Blending.cpp.o
+
+.PHONY : Blending.o
+
+# target to build an object file
+Blending.cpp.o:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/Blending.cpp.o
+.PHONY : Blending.cpp.o
+
+Blending.i: Blending.cpp.i
+
+.PHONY : Blending.i
+
+# target to preprocess a source file
+Blending.cpp.i:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/Blending.cpp.i
+.PHONY : Blending.cpp.i
+
+Blending.s: Blending.cpp.s
+
+.PHONY : Blending.s
+
+# target to generate assembly for a file
+Blending.cpp.s:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/Blending.cpp.s
+.PHONY : Blending.cpp.s
+
 Histogram.o: Histogram.cpp.o
 
 .PHONY : Histogram.o
@@ -617,6 +644,9 @@ help:
 	@echo "... NightlyCoverage"
 	@echo "... ExperimentalUpdate"
 	@echo "... ContinuousConfigure"
+	@echo "... Blending.o"
+	@echo "... Blending.i"
+	@echo "... Blending.s"
 	@echo "... Histogram.o"
 	@echo "... Histogram.i"
 	@echo "... Histogram.s"
