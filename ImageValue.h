@@ -13,10 +13,11 @@ private:
     float average;
     float dispersion;
     Mat mono;
+    
 public:
     ImageValue(const Mat& image);
     void Draw();
-    
+
 private:
     void CalLuminance(const Mat& image);
     void CalAverage(const Mat& image);

@@ -7,7 +7,7 @@ using namespace cv;
 
 int main(){
 /***input image***/
-    Mat image = imread("../lena.png");
+    Mat image = imread("../sample/lena.png");
     if(!image.data){
         printf("can not open image file.");
         return -1;
