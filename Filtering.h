@@ -15,7 +15,7 @@ private:
     Mat result;
 public:
     Filtering();
-    Mat& Calcurate(const Mat& ,int ,int ,int, 
+    Mat& Calcurate(const Mat&, int ,int ,int, 
             int ,int ,int ,int ,int ,int);
 
 private:

@@ -19,7 +19,6 @@ int main(){
     Mat result;
     char key = 0;
 
-    
     result = sorvel.Calcurate(image,0,-1,0,0,1,0,0,0,0);
     imshow("filter",result);
     imshow("original",image);   
