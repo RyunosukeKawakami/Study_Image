@@ -14,6 +14,18 @@ cmath
 vector
 -
 
+/home/ryunosuke/Study/image_study/Filtering.cpp
+Filtering.h
+/home/ryunosuke/Study/image_study/Filtering.h
+
+/home/ryunosuke/Study/image_study/Filtering.h
+opencv2/opencv.hpp
+-
+cmath
+-
+vector
+-
+
 /home/ryunosuke/Study/image_study/Histogram.h
 iostream
 -
@@ -43,4 +55,6 @@ ImageValue.h
 /home/ryunosuke/Study/image_study/ImageValue.h
 Blending.h
 /home/ryunosuke/Study/image_study/Blending.h
+Filtering.h
+/home/ryunosuke/Study/image_study/Filtering.h
 

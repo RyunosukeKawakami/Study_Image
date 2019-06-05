@@ -1,22 +1,27 @@
 [
 {
   "directory": "/home/ryunosuke/Study/image_study/build",
-  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -o CMakeFiles/image.dir/Blending.cpp.o -c /home/ryunosuke/Study/image_study/Blending.cpp",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -std=c++1z -o CMakeFiles/image.dir/Filtering.cpp.o -c /home/ryunosuke/Study/image_study/Filtering.cpp",
+  "file": "/home/ryunosuke/Study/image_study/Filtering.cpp"
+},
+{
+  "directory": "/home/ryunosuke/Study/image_study/build",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -std=c++1z -o CMakeFiles/image.dir/Blending.cpp.o -c /home/ryunosuke/Study/image_study/Blending.cpp",
   "file": "/home/ryunosuke/Study/image_study/Blending.cpp"
 },
 {
   "directory": "/home/ryunosuke/Study/image_study/build",
-  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -o CMakeFiles/image.dir/ImageValue.cpp.o -c /home/ryunosuke/Study/image_study/ImageValue.cpp",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -std=c++1z -o CMakeFiles/image.dir/ImageValue.cpp.o -c /home/ryunosuke/Study/image_study/ImageValue.cpp",
   "file": "/home/ryunosuke/Study/image_study/ImageValue.cpp"
 },
 {
   "directory": "/home/ryunosuke/Study/image_study/build",
-  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -o CMakeFiles/image.dir/Histogram.cpp.o -c /home/ryunosuke/Study/image_study/Histogram.cpp",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -std=c++1z -o CMakeFiles/image.dir/Histogram.cpp.o -c /home/ryunosuke/Study/image_study/Histogram.cpp",
   "file": "/home/ryunosuke/Study/image_study/Histogram.cpp"
 },
 {
   "directory": "/home/ryunosuke/Study/image_study/build",
-  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -o CMakeFiles/image.dir/main.cpp.o -c /home/ryunosuke/Study/image_study/main.cpp",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -std=c++1z -o CMakeFiles/image.dir/main.cpp.o -c /home/ryunosuke/Study/image_study/main.cpp",
   "file": "/home/ryunosuke/Study/image_study/main.cpp"
 }
 ]

@@ -525,6 +525,33 @@ Blending.cpp.s:
 	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/Blending.cpp.s
 .PHONY : Blending.cpp.s
 
+Filtering.o: Filtering.cpp.o
+
+.PHONY : Filtering.o
+
+# target to build an object file
+Filtering.cpp.o:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/Filtering.cpp.o
+.PHONY : Filtering.cpp.o
+
+Filtering.i: Filtering.cpp.i
+
+.PHONY : Filtering.i
+
+# target to preprocess a source file
+Filtering.cpp.i:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/Filtering.cpp.i
+.PHONY : Filtering.cpp.i
+
+Filtering.s: Filtering.cpp.s
+
+.PHONY : Filtering.s
+
+# target to generate assembly for a file
+Filtering.cpp.s:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/Filtering.cpp.s
+.PHONY : Filtering.cpp.s
+
 Histogram.o: Histogram.cpp.o
 
 .PHONY : Histogram.o
@@ -647,6 +674,9 @@ help:
 	@echo "... Blending.o"
 	@echo "... Blending.i"
 	@echo "... Blending.s"
+	@echo "... Filtering.o"
+	@echo "... Filtering.i"
+	@echo "... Filtering.s"
 	@echo "... Histogram.o"
 	@echo "... Histogram.i"
 	@echo "... Histogram.s"

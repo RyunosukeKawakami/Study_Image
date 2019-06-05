@@ -3,6 +3,7 @@
 #include"Histogram.h"
 #include"ImageValue.h"
 #include"Blending.h"
+#include"Filtering.h"
 
 using namespace cv;
 
@@ -13,22 +14,16 @@ int main(){
         printf("can not open image file.");
         return -1;
     }
-
+    
+    Filtering sorvel;
+    Mat result;
     char key = 0;
 
-//    Histogram hist(image);
-//    ImageValue value(image);
-    Blending blend(image);
+    
+    result = sorvel.Calcurate(image,0,-1,0,0,1,0,0,0,0);
+    imshow("filter",result);
+    imshow("original",image);   
+    waitKey(0);
 
-    while(key != 0x1b){     //ESCキーを押すまでループ
-        //hist.Draw();
-        //value.Draw();
-        //blend.DrawAverage();
-        blend.DrawAlpha();
-        //blend.DrawEmboss(image);
-        //imshow("Image",image);
-        key = waitKey(1);
-    }
-    destroyAllWindows();
     return 0;
 }

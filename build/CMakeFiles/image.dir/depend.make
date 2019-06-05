@@ -4,6 +4,9 @@
 CMakeFiles/image.dir/Blending.cpp.o: ../Blending.cpp
 CMakeFiles/image.dir/Blending.cpp.o: ../Blending.h
 
+CMakeFiles/image.dir/Filtering.cpp.o: ../Filtering.cpp
+CMakeFiles/image.dir/Filtering.cpp.o: ../Filtering.h
+
 CMakeFiles/image.dir/Histogram.cpp.o: ../Histogram.cpp
 CMakeFiles/image.dir/Histogram.cpp.o: ../Histogram.h
 
@@ -11,6 +14,7 @@ CMakeFiles/image.dir/ImageValue.cpp.o: ../ImageValue.cpp
 CMakeFiles/image.dir/ImageValue.cpp.o: ../ImageValue.h
 
 CMakeFiles/image.dir/main.cpp.o: ../Blending.h
+CMakeFiles/image.dir/main.cpp.o: ../Filtering.h
 CMakeFiles/image.dir/main.cpp.o: ../Histogram.h
 CMakeFiles/image.dir/main.cpp.o: ../ImageValue.h
 CMakeFiles/image.dir/main.cpp.o: ../main.cpp
