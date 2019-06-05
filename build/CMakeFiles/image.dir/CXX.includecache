@@ -14,10 +14,6 @@ cmath
 vector
 -
 
-/home/ryunosuke/Study/image_study/Filtering.cpp
-Filtering.h
-/home/ryunosuke/Study/image_study/Filtering.h
-
 /home/ryunosuke/Study/image_study/Filtering.h
 opencv2/opencv.hpp
 -
@@ -25,6 +21,8 @@ cmath
 -
 vector
 -
+TrancerateGrayscale.h
+/home/ryunosuke/Study/image_study/TrancerateGrayscale.h
 
 /home/ryunosuke/Study/image_study/Histogram.h
 iostream
@@ -35,8 +33,18 @@ algorithm
 -
 opencv2/opencv.hpp
 -
+TrancerateGrayscale.h
+/home/ryunosuke/Study/image_study/TrancerateGrayscale.h
 
 /home/ryunosuke/Study/image_study/ImageValue.h
+opencv2/opencv.hpp
+-
+cmath
+-
+vector
+-
+
+/home/ryunosuke/Study/image_study/TrancerateGrayscale.h
 opencv2/opencv.hpp
 -
 cmath

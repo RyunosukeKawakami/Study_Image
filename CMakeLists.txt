@@ -10,6 +10,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 # make main project
 set(SOURCES
+    TrancerateGrayscale.cpp
     Filtering.cpp
     Blending.cpp
     ImageValue.cpp
@@ -17,6 +18,7 @@ set(SOURCES
     main.cpp)
 
 set(HEADER
+    TrancerateGrayscale.h
     Filtering.h
     Blending.h
     ImageValue.h

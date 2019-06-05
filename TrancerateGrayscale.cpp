@@ -2,6 +2,7 @@
 
 Mat& TrancerateGrayscale::Trancerate(const Mat& image){
     result = Mat::zeros(Size(image.cols,image.rows),CV_8UC3);
+    luminance.assign(image.rows, vector<int>(image.cols,0));
 
     for(int y = 0; y < image.rows ;y++){
         for(int x = 0; x < image.cols ;x++){

@@ -15,6 +15,7 @@ private:
 
 public:
     Mat& Trancerate(const Mat& image);
+    vector<vector<int>> Setluminance(){return luminance;}
 };
 
 #endif

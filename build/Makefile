@@ -606,6 +606,33 @@ ImageValue.cpp.s:
 	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/ImageValue.cpp.s
 .PHONY : ImageValue.cpp.s
 
+TrancerateGrayscale.o: TrancerateGrayscale.cpp.o
+
+.PHONY : TrancerateGrayscale.o
+
+# target to build an object file
+TrancerateGrayscale.cpp.o:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/TrancerateGrayscale.cpp.o
+.PHONY : TrancerateGrayscale.cpp.o
+
+TrancerateGrayscale.i: TrancerateGrayscale.cpp.i
+
+.PHONY : TrancerateGrayscale.i
+
+# target to preprocess a source file
+TrancerateGrayscale.cpp.i:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/TrancerateGrayscale.cpp.i
+.PHONY : TrancerateGrayscale.cpp.i
+
+TrancerateGrayscale.s: TrancerateGrayscale.cpp.s
+
+.PHONY : TrancerateGrayscale.s
+
+# target to generate assembly for a file
+TrancerateGrayscale.cpp.s:
+	$(MAKE) -f CMakeFiles/image.dir/build.make CMakeFiles/image.dir/TrancerateGrayscale.cpp.s
+.PHONY : TrancerateGrayscale.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -683,6 +710,9 @@ help:
 	@echo "... ImageValue.o"
 	@echo "... ImageValue.i"
 	@echo "... ImageValue.s"
+	@echo "... TrancerateGrayscale.o"
+	@echo "... TrancerateGrayscale.i"
+	@echo "... TrancerateGrayscale.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

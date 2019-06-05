@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/image.dir/TrancerateGrayscale.cpp.o"
   "CMakeFiles/image.dir/Filtering.cpp.o"
   "CMakeFiles/image.dir/Blending.cpp.o"
   "CMakeFiles/image.dir/ImageValue.cpp.o"

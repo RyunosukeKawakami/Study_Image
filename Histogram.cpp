@@ -7,20 +7,16 @@ Histogram::Histogram(const Mat& image){
     hist.assign(255,0);
     luminance.assign(image.rows, vector<int>(image.cols,0));
 
-    TrancerateGrayScale(image);
+    mono = grayscale.Trancerate(image);
+    luminance = grayscale.Setluminance();
+    Addhist();
     MakeGraph();
 }
 
-void Histogram::TrancerateGrayScale(const Mat& image){
-    for(int y = 0; y < image.rows ;y++){
-        for(int x = 0; x < image.cols ;x++){
-            luminance[y][x] = (int)0.114*image.at<Vec3b>(y,x)[0] + 
-                             0.587*image.at<Vec3b>(y,x)[1] +
-                             0.299*image.at<Vec3b>(y,x)[2];
+void Histogram::Addhist(){
+    for(int y = 0; y < mono.cols; y++){
+        for(int x = 0; x < mono.rows; x++){
             hist[luminance[y][x]]++;
-            mono.at<Vec3b>(y,x)[0] = luminance[y][x];
-            mono.at<Vec3b>(y,x)[1] = luminance[y][x];
-            mono.at<Vec3b>(y,x)[2] = luminance[y][x];
         }
     }
 }

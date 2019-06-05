@@ -9,19 +9,19 @@ using namespace cv;
 
 int main(){
 /***input image***/
-    Mat image = imread("../sample/lena.png");
+    Mat image = imread("../sample/jet.jpg");
     if(!image.data){
         printf("can not open image file.");
         return -1;
     }
-    
-    Filtering sorvel;
+
+    Filtering bibun(image);
     Mat result;
     char key = 0;
 
-    result = sorvel.Calcurate(image,0,-1,0,0,1,0,0,0,0);
-    imshow("filter",result);
+    result = bibun.Calcurate(0,-1,0,0,1,0,0,0,0);
     imshow("original",image);   
+    imshow("filter",result);
     waitKey(0);
 
     return 0;

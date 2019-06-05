@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ryunosuke/Study/image_study/Filtering.cpp" "/home/ryunosuke/Study/image_study/build/CMakeFiles/image.dir/Filtering.cpp.o"
   "/home/ryunosuke/Study/image_study/Histogram.cpp" "/home/ryunosuke/Study/image_study/build/CMakeFiles/image.dir/Histogram.cpp.o"
   "/home/ryunosuke/Study/image_study/ImageValue.cpp" "/home/ryunosuke/Study/image_study/build/CMakeFiles/image.dir/ImageValue.cpp.o"
+  "/home/ryunosuke/Study/image_study/TrancerateGrayscale.cpp" "/home/ryunosuke/Study/image_study/build/CMakeFiles/image.dir/TrancerateGrayscale.cpp.o"
   "/home/ryunosuke/Study/image_study/main.cpp" "/home/ryunosuke/Study/image_study/build/CMakeFiles/image.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

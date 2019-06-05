@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/ryunosuke/Study/image_study/build",
+  "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -std=c++1z -o CMakeFiles/image.dir/TrancerateGrayscale.cpp.o -c /home/ryunosuke/Study/image_study/TrancerateGrayscale.cpp",
+  "file": "/home/ryunosuke/Study/image_study/TrancerateGrayscale.cpp"
+},
+{
+  "directory": "/home/ryunosuke/Study/image_study/build",
   "command": "/usr/bin/g++-7   -isystem /usr/include/opencv  -g   -std=c++1z -o CMakeFiles/image.dir/Filtering.cpp.o -c /home/ryunosuke/Study/image_study/Filtering.cpp",
   "file": "/home/ryunosuke/Study/image_study/Filtering.cpp"
 },
